@@ -1,0 +1,42 @@
+@import './animations.css';
+@import './hamburger.css';
+@import './global.css';
+@import './scrollbar.css';
+@import './gallery.css';
+@import './certificatesSlider.css';
+@import './header.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.bg{
+    
+    background-position: cover;
+
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.bg1{
+    background-image: url('../../public/images/bg/bg1.png');
+}
+.bg2{
+    background-image: url('../../public/images/bg/bg2.png');
+}
+.bg3{
+    background-image: url('../../public/images/bg/bg3.png');
+}
+.bg4{
+    background-image: url('../../public/images/bg/bg4.png');
+}
+.bg5{
+    background-image: url('../../public/images/bg/bg5.png');
+}
+
+
+
+

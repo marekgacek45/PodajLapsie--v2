@@ -1,0 +1,15 @@
+::-webkit-scrollbar {
+	width: 15px; /* szerokość paska przewijania */
+  }
+  
+  ::-webkit-scrollbar-track {
+	@apply bg-black; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+	@apply bg-mainColor-800; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+	@apply bg-mainColor-400;
+  }

@@ -1,0 +1,51 @@
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+}
+
+body{
+    @apply bg-darkBgc text-white overflow-x-hidden;
+}
+
+
+p,span{
+    font-family: 'Merriweather', serif;
+    line-height: 1.6;
+    @apply font-light
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Work Sans', sans-serif;
+}
+
+  .nav{
+    z-index: 100000;
+  }
+
+  .ck-content{
+    @apply text-black min-h-[300px]
+}
+
+
+#postContent{
+    @apply leading-6
+}
+
+#postContent strong{
+    @apply font-extrabold
+}
+
+
+.post h1, .post h2, .post h3, .post strong {
+    @apply text-white
+}
+
+.post .attachment__caption {
+    display: none;
+}
+
+
+.grecaptcha-badge { 
+    visibility: hidden !important;
+}
+

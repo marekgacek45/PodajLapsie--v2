@@ -1,0 +1,1 @@
+<section {{$attributes(['class'=>"bg  bg-blend-multiply bg-center "])}}>{{$slot}}</section>
